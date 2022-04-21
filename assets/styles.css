@@ -1,0 +1,92 @@
+
+body{
+    background-color: #E9F1F3;
+    width: 100%;
+    margin: 0px auto;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.derecha{
+    float: right;
+    margin-right: 15%;
+}
+table{
+    
+    width: auto;
+    margin: 0px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h4, p{
+    text-align: center;
+    
+}
+/* Invisible texto */
+figcaption {
+    display:none; 
+    transition: all .5s;
+}
+  /* Visible texto */
+figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+}
+
+a{
+    color: black;
+}
+
+#carrusel1 img{
+    border: 5px solid white;
+    border-style: double;
+}
+#carousel-caption{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+footer{
+    background-color: #B2B2B2;
+    align-self: flex-end;
+    width: 100%;
+    
+}
+#footerStyleRedes{
+    margin-top: 100px;
+    background-color: #B2B2B2;
+    text-align:center;
+}
+
+
+div.galeria {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #449;
+    color: #fff;
+    padding: 25px;
+    border-radius: 5%;
+    border-style: double;
+  }
+
+div.galeria img.izquierda {
+    float: left;
+    margin-right: 0%;
+  }
+  
+div.galeria img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+div.reset {
+    clear: both;
+  }
+
